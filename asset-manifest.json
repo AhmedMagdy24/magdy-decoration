@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/magdy-decoration/static/css/main.a273a803.css",
-    "main.js": "/magdy-decoration/static/js/main.9be0e3da.js",
+    "main.css": "/magdy-decoration/static/css/main.06364f18.css",
+    "main.js": "/magdy-decoration/static/js/main.eaa71b2b.js",
     "static/media/img-99.jpg": "/magdy-decoration/static/media/img-99.a6efe214071874c9e335.jpg",
     "index.html": "/magdy-decoration/index.html",
-    "main.a273a803.css.map": "/magdy-decoration/static/css/main.a273a803.css.map",
-    "main.9be0e3da.js.map": "/magdy-decoration/static/js/main.9be0e3da.js.map"
+    "main.06364f18.css.map": "/magdy-decoration/static/css/main.06364f18.css.map",
+    "main.eaa71b2b.js.map": "/magdy-decoration/static/js/main.eaa71b2b.js.map"
   },
   "entrypoints": [
-    "static/css/main.a273a803.css",
-    "static/js/main.9be0e3da.js"
+    "static/css/main.06364f18.css",
+    "static/js/main.eaa71b2b.js"
   ]
 }
