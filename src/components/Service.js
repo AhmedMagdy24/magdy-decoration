@@ -12,12 +12,12 @@ function Service() {
         <div className='cards__wrapper'>
             <ul className='cards__items'>
                 <ServiceItem
-                src='https://source.unsplash.com/luseu9GtYzM'
+                src='https://source.unsplash.com/MkTh65JGIlU'
                 text='Kitchen'
                 path='/services'
                 />
                 <ServiceItem
-                src='https://source.unsplash.com/MCKrW7fB7Pw'
+                src='https://source.unsplash.com/luseu9GtYzM'
                 path='/services'
                 text='office'
                 />
@@ -32,9 +32,9 @@ function Service() {
                 text='living Room'
                 />
                 <ServiceItem
-                src='https://source.unsplash.com/U7PitHRnTNU'
+                src='https://source.unsplash.com/izJhtzKP5so'
                 path='/services'
-                text='Bathroom'
+                text='Dining room'
                 />
             </ul>
         </div>
