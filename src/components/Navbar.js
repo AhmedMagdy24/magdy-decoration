@@ -71,7 +71,7 @@ function Navbar() {
                   className='nav-links'
                   onClick={closeMobileMenu}
                 >
-                  Products
+                  Projects
                 </Link>
               </li>
   
@@ -85,7 +85,7 @@ function Navbar() {
                 </Link>
               </li>
             </ul>
-            {button && <Button buttonStyle='btn--outline'>Contact us</Button>}
+            {button && <Button buttonStyle='btn--outline-navbar'>Contact us</Button>}
           </div>
           </nav>
           

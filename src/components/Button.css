@@ -42,3 +42,7 @@
     transition: 250ms;
   }
   
+
+  .btn--outline-navbar {
+    display: none;
+  }
