@@ -27,13 +27,15 @@ export default function Footer() {
                 </div>
             </div>
             
-                <div className="footer-links">
+            <div className="footer-links">
+                <div className="rights">
                     <p>Magdy Decoration ©2022 All Rights Reserved.</p>
-                    <div className="social-media">
-                    <a href="https://instagram.com/magdyahmed62?igshid=YmMyMTA2M2Y=" target="_blank" className="instagram" ><FaInstagram /></a> 
-                    <a href="https://www.facebook.com/magdydecoration" target="_blank"  className="facebook"><FaFacebookSquare /></a> 
-                        </div>
-                    </div>
+                </div>
+                <div className="social-media">
+                <a href="https://instagram.com/magdyahmed62?igshid=YmMyMTA2M2Y=" target="_blank" className="instagram" ><FaInstagram /></a> 
+                <a href="https://www.facebook.com/magdydecoration" target="_blank"  className="facebook"><FaFacebookSquare /></a> 
+                </div>
+            </div>
            
         </div>
     )
