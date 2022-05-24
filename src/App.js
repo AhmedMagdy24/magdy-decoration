@@ -3,12 +3,11 @@ import React from 'react';
 import Home from './components/pages/Home';
 import { BrowserRouter as Router, Route } from 'react-router-dom';
 import { Routes } from 'react-router-dom';
-import Services from './components/pages/Services';
-import Products from './components/pages/Products';
-import Contact from './components/pages/Contact';
+import Footer from './components/Footer';
 import Navbar from './components/Navbar';
-
-import {HashRouter} from 'react-router-dom';
+import Service from './components/Service';
+import { HashRouter } from 'react-router-dom';
+import Projects from './components/Projects';
 
 
 function App() {
@@ -20,9 +19,9 @@ function App() {
         <Navbar />
         <Routes>
           <Route path='/' exact component={Home} />
-          <Route path='/services' component={Services} />
-          <Route path='/products' component={Products} />
-          <Route path='/Contact' component={Contact} />
+          <Route path='/services' component={Service} />
+          <Route path='/Projects' component={Projects} />
+          <Route path='/Contact' component={Footer} />
         </Routes>
         <Home/>
       </HashRouter>
