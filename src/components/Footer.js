@@ -10,7 +10,7 @@ import { FaInstagram, FaFacebookSquare} from "react-icons/fa";
 
 export default function Footer() {
     return (
-        <div className="footer-cotainer">
+        <div className="footer-cotainer" id="footer">
             <div className="contact-info">
                 <div className="contact-info-container">
                     <span><BsTelephoneFill /></span>

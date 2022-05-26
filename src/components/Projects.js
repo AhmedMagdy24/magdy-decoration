@@ -6,7 +6,7 @@ import { HiLink } from "react-icons/hi";
 
 export default function Projects() {
     return (
-        <div className="projects">
+        <div className="projects" id="projects">
             <h1 className="projects-text">Some Of Our Interior Designing Projects</h1>;
             
             <div className="grid">

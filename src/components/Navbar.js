@@ -3,6 +3,7 @@ import { Button } from './Button';
 import { Link } from 'react-router-dom';
 import './Navbar.css';
 import { FaTimes, FaBars } from "react-icons/fa";
+import { HashLink } from 'react-router-hash-link'
 
 
 
@@ -49,40 +50,39 @@ function Navbar() {
             </div>
             <ul className={click ? 'nav-menu active' : 'nav-menu'}>
               <li className='nav-item'>
-                <Link to='/' className='nav-links' onClick={closeMobileMenu}>
+                <HashLink smooth to='/#home' className='nav-links' onClick={closeMobileMenu}>
                   Home
-                </Link>
+                </HashLink>
               </li>
               
               <li className='nav-item'>
-                <Link 
-                  to='/service'
+                <HashLink 
+                  smooth to='/#services'
                   className='nav-links'
                   onClick={closeMobileMenu}
                 >
-                  
                   Services
-                </Link >
+                </HashLink >
               </li>
               
               <li className='nav-item'>
-                <Link
-                  to='/Projects'
+                <HashLink
+                  smooth to='/#projects'
                   className='nav-links'
                   onClick={closeMobileMenu}
                 >
                   Projects
-                </Link>
+                </HashLink>
               </li>
   
               <li>
-                <Link 
-                  to='/Footer'
+                <HashLink 
+                  smooth to='/#footer'
                   className='nav-links-mobile'
                   onClick={closeMobileMenu}
                 >
                   Contact us
-                </Link>
+                </HashLink>
               </li>
             </ul>
             {button && <Button buttonStyle='btn--outline-navbar'>Contact us</Button>}

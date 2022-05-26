@@ -1,6 +1,7 @@
 import React from 'react';
 import './Button.css';
 import { Link } from 'react-router-dom';
+import { HashLink } from 'react-router-hash-link'
 
 const STYLES = ['btn--primary', 'btn--outline', 'btn--test', 'btn--outline-navbar'];
 
@@ -20,7 +21,7 @@ export const Button = ({
   const checkButtonSize = SIZES.includes(buttonSize) ? buttonSize : SIZES[0];
 
   return (
-    <Link to='/Footer' className='btn-mobile'>
+    <HashLink smooth to='/#footer' className='btn-mobile'>
       <button
         className={`btn ${checkButtonStyle} ${checkButtonSize}`}
         onClick={onClick}
@@ -28,6 +29,6 @@ export const Button = ({
       >
         {children}
       </button>
-    </Link>
+    </HashLink>
   );
 };
