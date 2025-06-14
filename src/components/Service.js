@@ -12,7 +12,7 @@ function Service() {
         <div className='cards__wrapper'>
             <ul className='cards__items'>
                 <ServiceItem
-                src='https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=800&q=80'
+                src='https://unsplash.com/photos/white-and-brown-kitchen-cabinet--aDGbdTsBZg'
                 text='Kitchen'
                 path='/services'
                 />
