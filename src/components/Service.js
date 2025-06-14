@@ -12,27 +12,27 @@ function Service() {
         <div className='cards__wrapper'>
             <ul className='cards__items'>
                 <ServiceItem
-                src='https://unsplash.com/photos/white-and-brown-kitchen-cabinet--aDGbdTsBZg'
+                src="images/kitchen.jpg"
                 text='Kitchen'
                 path='/services'
                 />
                 <ServiceItem
-                src='https://source.unsplash.com/luseu9GtYzM'
+                src="images/Office.jpg"
                 path='/services'
                 text='office'
                 />
                 <ServiceItem
-                src='https://source.unsplash.com/q9QVDa-EPgM'
+                src="images/bedroom.jpg"
                 path='/services'
                 text='Bedroom'
                 />
                 <ServiceItem
-                src='https://source.unsplash.com/OtXADkUh3-I'
+                src="images/livingroom.jpg"
                 path='/services'
                 text='living Room'
                 />
                 <ServiceItem
-                src='https://source.unsplash.com/izJhtzKP5so'
+                src="images/diningroom.jpg"
                 path='/services'
                 text='Dining room'
                 />
